@@ -18,6 +18,7 @@ const app = express();
   } catch (err) {
     console.error(err.message);
     // Exit process with failure
+    //if the correct output is not found
     process.exit(1);
   }
 })();
